@@ -56,10 +56,10 @@ No build step required. It's a single HTML file.
 
 ### Run locally
 
-Just open `outfit-checker.html` in any modern browser:
+Just open `index.html` in any modern browser:
 
 ```bash
-open outfit-checker.html
+open index.html
 ```
 
 Or serve it with any static server:
@@ -80,7 +80,7 @@ python3 -m http.server
 
 ### Deploy to Netlify
 
-Drag and drop the `outfit-checker.html` file (renamed to `index.html`) into [app.netlify.com/drop](https://app.netlify.com/drop). Done.
+Drag and drop the `index.html` file (renamed to `index.html`) into [app.netlify.com/drop](https://app.netlify.com/drop). Done.
 
 ---
 
@@ -89,7 +89,7 @@ Drag and drop the `outfit-checker.html` file (renamed to `index.html`) into [app
 The entire app is a single self-contained HTML file with no build dependencies:
 
 ```
-outfit-checker.html
+index.html
 │
 ├── <style>          CSS variables, layout, component styles
 ├── <body>           Header, mode toggle, upload panels, result screen
